@@ -55,14 +55,8 @@ function App() {
 }
 ```
 
-Component Props
-You can easily customize the grid density and colors on the fly by passing props to the <BackgroundCanvas /> component.
-Prop                 Type                   Default                  Description
-dotGap               number                 30                       The pixel distance between each dot in the grid. Automatically increases on mobile devices to                                                                      save performance.
-dotRadius            number                 2                        The base radius of the dots. The component randomly varies this slightly for depth.
-interactionRadius    number                 120                      How close the mouse needs to be to a dot to trigger the Neon Bloom and gravity effects.
-lightColor           string                 "#000000"                The idle hex color of the dots when Dark Mode is disabled.
-darkColor            string                 "#ffffff"                The idle hex color of the dots when Dark Mode is enabled.
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/92371674-c7f6-4d64-a6e4-e10f0a7d7282" />
+
 
 🧠 Architecture Highlights
 Separation of Concerns:
